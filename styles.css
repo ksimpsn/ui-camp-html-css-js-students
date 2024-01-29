@@ -1,14 +1,24 @@
+body {
+  color: #573813;
+}
+
 #ui-camp-gallery {
-  background-color: lightblue;
+  background-color: #ffe6e6;
 }
 
 /* Uncomment below if images are way too big.
 Selects all image tags and makes them 500px;
  */
-/*img {*/
-/*  width: 500px;*/
-/*}*/
+ 
+img {
+ width: 500px;
+}
 
 .gallery-container {
+  padding-bottom: 20px;
+  display: flex;
+  row-gap: 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
 }
